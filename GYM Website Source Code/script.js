@@ -1,3 +1,7 @@
+document.querySelector(".menu-btn").addEventListener("click", function() {
+    document.querySelector(".nav-links").classList.toggle("active");
+});
+
 document.addEventListener("DOMContentLoaded", () => {
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll(".nav-links a");
