@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <title>EliteFit Club</title>
+    <meta charset="UTF-8">
+    <!-- link to font-awesome to insert icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link to css file for styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="profile.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- let make header section -->
+    <header>
+        <nav>
+            <div class="logo">&#x1F4AA; EliteFit</div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#pricing">Preços</a>
+                <a href="#why-us">Quem Somos</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- let make home section -->
+    <section id="home">
+        <div class="profile-container">
+            <img src="profile.png" alt="Fitness Trainer" class="profile-img">
+        </div>
+        <div class="home-content">
+            <h1>Transforme seu corpo com EliteFit</h1>
+            <p>Junte-se à nossa comunidade fitness premium e alcance seus objetivos de saúde com treinadores de classe
+                mundial.</p>
+            <button class="btn">
+                Comece sua jornada
+            </button>
+
+            <div class="services">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-dumbbell fa-2x mb-2" style="color: var(--accent);"></i>
+                        <h3>Personal Training</h3>
+                        <p>Planos de treino personalizados com treinadores certificados</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-heartbeat fa-2x mb-2 " style="color: var(--accent);"></i>
+                        <h3>Aulas em grupo</h3>
+                        <p>Exercícios diários em grupo, incluindo CrossFit e Yoga</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- let make pricing section -->
+    <section id="pricing">
+        <div class="w-full">
+            <h2 class="section-title">Planos de Sócios</h2>
+            <!-- 1st card -->
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Plano Básico</h3>
+                    <p class="price">R$29/mês</p>
+                    <ul>
+                        <li>Acesso Gym</li>
+                        <li>Wi-Fi Gratuito</li>
+                        <li>Equipamento Básico</li>
+                    </ul>
+                    <button class="btn">Comprar</button>
+                </div>
+                <!-- 2nd card -->
+                <div class="pricing-card">
+                    <h3>Plano Premium</h3>
+                    <p class="price">R$49/mês</p>
+                    <ul>
+                        <li>Acesso Gym</li>
+                        <li>Personal Training</li>
+                        <li>Plano Nutricional</li>
+                    </ul>
+                    <button class="btn">Entrar</button>
+                </div>
+                <!-- 3rd card -->
+                <div class="pricing-card">
+                    <h3>Plano Gold</h3>
+                    <p class="price">R$79/mês</p>
+                    <ul>
+                        <li>Acesso Gym</li>
+                        <li>Personal Training</li>
+                        <li>Plano Nutricional</li>
+                        <li>Aulas em grupo</li>
+                    </ul>
+                    <button class="btn">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- let make why-us section -->
+    <section id="why-us">
+        <div class="why-us-content">
+            <h2 class="section-title">Por que nos escolher?</h2>
+            <ul class="benefits-list">
+                <li><i class="fas fa-check" style="color: var(--accent);"></i> Instrutores profissionais certificados
+                </li>
+                <li><i class="fas fa-check" style="color: var(--accent);"></i> Instalações de última geração</li>
+                <li><i class="fas fa-check" style="color: var(--accent);"></i> Acesso à academia 24 horas por dia</li>
+                <li><i class="fas fa-check" style="color: var(--accent);"></i> Planos de Nutricionais personalizados
+                </li>
+            </ul>
+            <h2 class="section-title">Our Trainer</h2>
+            <div class="trainer">
+                <img src="t1.jpg" width="120px" alt="">
+                <img src="t2.jpg" width="120px" alt="">
+                <img src="t3.jpg" width="120px" alt="">
+                <img src="t4.jpg" width="120px" alt="">
+            </div>
+        </div>
+        <img src="gymgirl.png" width="400px" alt="Gym Facility" class="why-us-img">
+    </section>
+    <!-- let make footer -->
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h4>Contate-nos</h4>
+                <p>Email: info@elitefit.com</p>
+                <p>Whatsapp: (74) 11123-4567</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <p style="text-align: center; margin-top: 3rem;">© 2025 EliteFit Club. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
